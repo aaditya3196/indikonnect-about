@@ -1,0 +1,767 @@
+<template>
+  <div class="about-page">
+
+    <section class="hero-section">
+      <div class="hero-bg-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container hero-container">
+        <div class="hero-wrapper reveal reveal-fade">
+          <p class="eyebrow gold-text animate-pop">The Spirit of New India</p>
+          <h1 class="hero-title">
+            One Nation.
+            <span class="gold-gradient">One Network.</span>
+            Endless Possibilities.
+          </h1>
+          <p class="hero-description">
+            IndiKonnect is a modern Indian movement built on the pillars of
+            Connection, Opportunity, Growth, and Trust. Inspired by the vibrant
+            energy and soaring aspirations of 1.4 billion people, we meet the power of
+            entrepreneurship.
+          </p>
+
+          <div class="hero-buttons">
+            <button class="primary-btn">Join the Movement</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="wave-divider bottom-curve">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,120L1320,120C1200,120,960,120,720,120C480,120,240,120,120,120L0,120Z" fill="#ffffff"></path>
+        </svg>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container">
+        <div class="section-title reveal reveal-up">
+          <p class="section-tag">Our Identity</p>
+          <h2>The Spirit of New India</h2>
+        </div>
+
+        <div class="identity-grid">
+          <div class="identity-card reveal reveal-left">
+            <div class="card-badge primary-bg">IN</div>
+            <h3>Indi</h3>
+            <p>Representing the independent spirit of India—its vibrant culture, resilient people, and unstoppable global ambition.</p>
+          </div>
+
+          <div class="identity-card reveal reveal-right">
+            <div class="card-badge gold-bg">✦</div>
+            <h3>Konnect</h3>
+            <p>Our mission to perfectly bridge the gap between world-class premium products and the aspiring modern Indian entrepreneur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section charcoal-section">
+      <div class="container brand-wrapper">
+        <div class="brand-grid">
+          <div class="brand-left reveal reveal-left">
+            <p class="eyebrow gold-text">A Brand That Stands Alone</p>
+            <h2>Built Around <span>Vision, Not Individuals</span></h2>
+          </div>
+          <div class="brand-right reveal reveal-right">
+            <p>At IndiKonnect, we believe that the brand is the identity. We are an institution-driven organization, built not around individuals, but around a collective vision of excellence.</p>
+            <p>Our goal is to be India’s most trusted and respected independent direct selling brand—a household name that stands for absolute transparency, stellar ethics, and long-term stability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container">
+        <div class="section-title reveal reveal-up">
+          <p class="section-tag">Vision & Mission</p>
+          <h2>Purpose That Drives Progress</h2>
+        </div>
+
+        <div class="vision-grid">
+          <div class="vision-card reveal reveal-left">
+            <div class="vision-header">
+              <div class="mini-badge primary-bg">V</div>
+              <h3>Our Vision</h3>
+            </div>
+            <p class="vision-text">To become India’s most trusted, ethical, and empowering direct selling company by connecting people through opportunity and a deep-rooted culture of shared growth.</p>
+          </div>
+
+          <div class="vision-card reveal reveal-right">
+            <div class="vision-header">
+              <div class="mini-badge gold-bg">M</div>
+              <h3>Our Mission</h3>
+            </div>
+            <ul class="custom-list">
+              <li>To empower individuals from all walks of life to achieve true financial and professional independence.</li>
+              <li>To offer a highly curated portfolio of premium lifestyle products at an accessible value point.</li>
+              <li>To foster a completely transparent, legal, and ethical business ecosystem that inspires leadership nationwide.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sophisticated-bg">
+      <div class="container">
+        <div class="section-title reveal reveal-up">
+          <p class="section-tag">The IndiKonnect Lifestyle</p>
+          <h2>World-Class Excellence</h2>
+          <p class="sub-intro">We don’t just offer products; we craft an elevated living experience. Showcase inspired by iconic worldwide luxury standards.</p>
+        </div>
+
+        <div class="lifestyle-showcase-grid">
+          <div class="lifestyle-item reveal reveal-up">
+            <div class="image-zoom-box">
+              <img src="/images/watch.png" alt="Luxury Watches" />
+              <div class="image-tint"></div>
+            </div>
+            <div class="lifestyle-card-content">
+              <div class="floating-icon">⌚</div>
+              <h3>Timeless Horology</h3>
+              <p>Our watch collections are inspired by the sophistication of heritage luxury, designed for precision.</p>
+            </div>
+          </div>
+
+          <div class="lifestyle-item reveal reveal-up">
+            <div class="image-zoom-box">
+              <img src="/images/jewellery.png" alt="Jewellery" />
+              <div class="image-tint"></div>
+            </div>
+            <div class="lifestyle-card-content">
+              <div class="floating-icon">💎</div>
+              <h3>Elegant Jewellery</h3>
+              <p>Modern, elegant collections that reflect individuality and grace, curated for the modern consumer.</p>
+            </div>
+          </div>
+
+          <div class="lifestyle-item reveal reveal-up">
+            <div class="image-zoom-box">
+              <img src="/images/beauty.png" alt="Beauty" />
+              <div class="image-tint"></div>
+            </div>
+            <div class="lifestyle-card-content">
+              <div class="floating-icon">✨</div>
+              <h3>Beauty & Care</h3>
+              <p>High-performance skincare and beauty solutions focused on self-care and life enhancement.</p>
+            </div>
+          </div>
+
+          <div class="lifestyle-item reveal reveal-up">
+            <div class="image-zoom-box">
+              <img src="/images/dining.png" alt="Dining" />
+              <div class="image-tint"></div>
+            </div>
+            <div class="lifestyle-card-content">
+              <div class="floating-icon">🍽</div>
+              <h3>Lifestyle Dining</h3>
+              <p>Sophisticated crockery and dining collections designed to bring elegance to the modern home.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section">
+      <div class="container">
+        <div class="section-title reveal reveal-up">
+          <p class="section-tag">Our Foundations</p>
+          <h2>Values You Can Trust</h2>
+        </div>
+
+        <div class="premium-values-row">
+          <div class="value-luxury-card blue-theme reveal reveal-left">
+            <h3>Trust & Stability</h3>
+            <p>We operate with high-level professional vision, clean transparency, and unwavering corporate confidence.</p>
+          </div>
+
+          <div class="value-luxury-card gold-theme reveal reveal-up">
+            <h3>Energy & Growth</h3>
+            <p>We systematically foster a strong culture of optimism, shared economic ambition, and warm partnership.</p>
+          </div>
+
+          <div class="value-luxury-card deep-theme reveal reveal-right">
+            <h3>Integrity & Transparency</h3>
+            <p>Our complete foundation is safely built on legal frameworks, moral parameters, and straightforward execution.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section future-split-section">
+      <div class="container">
+        <div class="future-container-grid">
+          <div class="future-media reveal reveal-left">
+            <div class="img-frame">
+              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1400&auto=format&fit=crop" alt="Future Ready Ecosystem" />
+            </div>
+          </div>
+          <div class="future-details reveal reveal-right">
+            <p class="eyebrow gold-text">Future-Ready & Compliant</p>
+            <h2>Building the Future of Network Marketing</h2>
+            <p>As a proud advocate of 'Aatmanirbhar Bharat,' IndiKonnect is completely dedicated to setting the benchmark for stellar corporate governance across international standards.</p>
+            <p>We aggressively align our network structure with the latest regulatory frameworks in India to safeguard a completely safe, legitimate, and prosperous ecosystem for our hard-working distribution network.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-premium-wrap reveal reveal-scale">
+      <div class="container">
+        <div class="interactive-cta-box">
+          <p class="eyebrow gold-text">Join the Movement</p>
+          <h2>Where People and Possibilities Connect</h2>
+          <p class="cta-desc">Whether you are explicitly looking for elite lifestyle products to scale your quality of living or an enterprise-grade professional model to completely alter your financial path, we welcome you.</p>
+          <button class="primary-btn dynamic-glow-btn">Start Your Personal Journey</button>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</template>
+
+<script setup>
+import { onMounted } from "vue";
+
+onMounted(() => {
+  const animatedElements = document.querySelectorAll(".reveal");
+
+  const options = {
+    root: null,
+    threshold: 0.02,
+    rootMargin: "0px 0px -10px 0px"
+  };
+
+  const scrollObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("reveal-active");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, options);
+
+  animatedElements.forEach((el) => scrollObserver.observe(el));
+});
+</script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.about-page {
+  --cobalt: #003DA5;
+  --gold: #FFC72C;
+  --charcoal: #333F48;
+  --dark-blue: #0A2240;
+  --pure-white: #FFFFFF;
+  --light-gray-bg: #F9FAFC;
+  --soft-border: rgba(0, 61, 165, 0.08);
+  
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--pure-white);
+  color: var(--charcoal);
+  overflow-x: hidden;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+/* HERO UPDATES: BRAND COBALT SYSTEM BASELINE */
+.hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 120px;
+  background-color: var(--cobalt);
+  overflow: hidden;
+  width: 100%;
+}
+
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1600&auto=format&fit=crop');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.08;
+  mix-blend-mode: overlay;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 61, 165, 0.85) 0%, var(--cobalt) 100%);
+  z-index: 1;
+}
+
+.hero-glow-1, .hero-glow-2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: 2;
+}
+.hero-glow-1 { top: -10%; right: -5%; background: radial-gradient(circle, rgba(255, 199, 44, 0.15) 0%, transparent 70%); }
+.hero-glow-2 { bottom: -5%; left: -5%; background: radial-gradient(circle, rgba(255, 255, 255, 0.1), transparent 70%); }
+
+.hero-container {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+}
+
+.hero-wrapper {
+  max-width: 840px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.gold-text { color: var(--gold); }
+
+.hero-title {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: var(--pure-white);
+  letter-spacing: -1.5px;
+  margin-bottom: 20px;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #FFE082 0%, var(--gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.hero-description {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 680px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  background: linear-gradient(135deg, var(--gold) 0%, #F5B000 100%);
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 14px 32px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 199, 44, 0.2);
+  transition: all 0.3s ease;
+}
+
+.primary-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(255, 199, 44, 0.3);
+}
+
+.secondary-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--pure-white);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 31px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.secondary-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* SCALABLE VECTOR WAVES DIVIDER STYLING */
+.wave-divider {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  z-index: 4;
+}
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 50px;
+}
+
+/* SPACING GRID BASE */
+.section {
+  padding: 56px 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.light-section { background-color: var(--pure-white); }
+
+.section-title {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 36px;
+  padding: 0 10px;
+}
+
+.section-tag {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--cobalt);
+  margin-bottom: 8px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: var(--dark-blue);
+}
+
+/* IDENTITY STRATEGY */
+.identity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  width: 100%;
+}
+
+.identity-card {
+  background: var(--pure-white);
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid var(--soft-border);
+  box-shadow: 0 10px 30px rgba(10, 34, 64, 0.02);
+  width: 100%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.identity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(0, 61, 165, 0.06);
+}
+
+.card-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.primary-bg { background-color: var(--cobalt); color: var(--pure-white); }
+.gold-bg { background-color: var(--gold); color: var(--dark-blue); }
+
+.identity-card h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--dark-blue);
+}
+
+.identity-card p {
+  color: var(--charcoal);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* BRAND INSTANCE BANNER - CLEAN FLUSH LAYOUT */
+.charcoal-section {
+  background: linear-gradient(135deg, #232A30 0%, var(--charcoal) 100%);
+  padding: 72px 0;
+}
+
+.brand-wrapper { position: relative; z-index: 5; width: 100%; }
+.brand-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 48px;
+  align-items: center;
+  width: 100%;
+}
+
+.brand-left h2 {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--pure-white);
+  line-height: 1.25;
+}
+.brand-left h2 span { display: block; color: var(--gold); }
+.brand-right p { font-size: 15.5px; color: rgba(255, 255, 255, 0.85); margin-bottom: 18px; line-height: 1.65; }
+.brand-right p:last-child { margin-bottom: 0; }
+
+/* VISION / MISSION GRID */
+.vision-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  width: 100%;
+}
+
+.vision-card {
+  background: var(--pure-white);
+  border: 1px solid var(--soft-border);
+  padding: 40px;
+  border-radius: 20px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  transition: all 0.35s ease;
+}
+
+.vision-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 0; height: 4px;
+  background-color: var(--cobalt);
+  border-radius: 20px 20px 0 0;
+  transition: width 0.35s ease;
+}
+.vision-card:nth-child(2)::before { background-color: var(--gold); }
+
+.vision-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 35px rgba(10, 34, 64, 0.04);
+}
+.vision-card:hover::before { width: 100%; }
+
+.vision-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.mini-badge {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.vision-card h3 { font-size: 22px; font-weight: 700; color: var(--dark-blue); }
+.vision-text { font-size: 15px; line-height: 1.65; color: var(--charcoal); }
+
+.custom-list { list-style: none; padding: 0; margin: 0; }
+.custom-list li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--charcoal);
+}
+.custom-list li:last-child { margin-bottom: 0; }
+.custom-list li::before {
+  content: "✓"; position: absolute; left: 0; top: 0; color: var(--cobalt); font-weight: 800;
+}
+
+/* LIFESTYLE TILES SYSTEM */
+.sophisticated-bg { background-color: var(--light-gray-bg); }
+.sub-intro { font-size: 15px; margin-top: 10px; opacity: 0.85; }
+
+.lifestyle-showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.lifestyle-item {
+  background: var(--pure-white);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(10, 34, 64, 0.02);
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.image-zoom-box { position: relative; height: 200px; overflow: hidden; width: 100%; }
+.image-zoom-box img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+.image-tint { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(10, 34, 64, 0.2) 0%, transparent 100%); }
+
+.lifestyle-card-content { padding: 28px 24px 24px; position: relative; box-sizing: border-box; }
+.floating-icon {
+  position: absolute; top: -22px; left: 24px; width: 44px; height: 44px;
+  background: var(--pure-white); border-radius: 12px;
+  display: flex; align-items: center; justify-content: center; font-size: 20px;
+  box-shadow: 0 6px 15px rgba(10, 34, 64, 0.08);
+}
+
+.lifestyle-item h3 { font-size: 19px; font-weight: 700; color: var(--dark-blue); margin-bottom: 10px; margin-top: 4px; }
+.lifestyle-item p { font-size: 14px; line-height: 1.55; color: var(--charcoal); opacity: 0.9; }
+
+.lifestyle-item:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(10, 34, 64, 0.06); }
+.lifestyle-item:hover .image-zoom-box img { transform: scale(1.06); }
+
+/* FOUNDATIONS GRID LAYOUT */
+.premium-values-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.value-luxury-card { 
+  padding: 40px 28px; 
+  border-radius: 20px; 
+  color: var(--pure-white); 
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+.v-num { font-size: 42px; font-weight: 800; display: block; opacity: 0.18; line-height: 1; margin-bottom: 12px; }
+.value-luxury-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
+.value-luxury-card p { font-size: 14.5px; line-height: 1.6; opacity: 0.95; }
+
+.value-luxury-card.blue-theme { background: linear-gradient(135deg, var(--cobalt) 0%, #002875 100%); }
+.value-luxury-card.gold-theme { background: linear-gradient(135deg, #F5B000 0%, var(--gold) 100%); color: var(--dark-blue); }
+.value-luxury-card.deep-theme { background: linear-gradient(135deg, var(--charcoal) 0%, #1A2126 100%); }
+
+/* COMPLIANCE FLEX BLOCK */
+.future-split-section { background-color: var(--light-gray-bg); }
+.future-container-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 48px; align-items: center; width: 100%; }
+
+.img-frame { border-radius: 24px; overflow: hidden; box-shadow: 0 12px 30px rgba(10, 34, 64, 0.04); width: 100%; }
+.img-frame img { width: 100%; max-height: 400px; object-fit: cover; display: block; }
+
+.future-details h2 { font-size: 32px; font-weight: 800; color: var(--dark-blue); line-height: 1.25; margin-bottom: 18px; }
+.future-details p { font-size: 15px; margin-bottom: 16px; line-height: 1.65; color: var(--charcoal); }
+.future-details p:last-child { margin-bottom: 0; }
+
+/* BRAND COBALT SYSTEM CALIBRATION */
+.cta-premium-wrap { background: var(--pure-white); padding: 40px 0 60px; width: 100%; }
+.interactive-cta-box {
+  background: radial-gradient(circle at 90% 10%, rgba(255, 199, 44, 0.12) 0%, transparent 50%), var(--cobalt);
+  border-radius: 28px;
+  padding: 56px 40px;
+  text-align: center;
+  box-shadow: 0 15px 40px rgba(0, 61, 165, 0.15);
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+}
+
+.interactive-cta-box h2 { color: var(--pure-white); font-size: 38px; font-weight: 800; max-width: 840px; margin: 0 auto 18px; line-height: 1.25; }
+.cta-desc { color: rgba(255, 255, 255, 0.9); font-size: 16px; max-width: 680px; margin: 0 auto 36px; line-height: 1.65; }
+
+.dynamic-glow-btn { position: relative; overflow: hidden; }
+.dynamic-glow-btn::after {
+  content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+  transform: rotate(45deg); animation: shineLoop 6s linear infinite;
+}
+@keyframes shineLoop { 0% { left: -100%; top: -100%; } 25%, 100% { left: 100%; top: 100%; } }
+
+/* ANIMATION CORE ENGINE */
+.reveal {
+  opacity: 0; filter: blur(4px); will-change: transform, opacity;
+  transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), filter 0.8s ease;
+}
+.reveal-up { transform: translateY(24px); }
+.reveal-left { transform: translateX(-24px); }
+.reveal-right { transform: translateX(24px); }
+.reveal-scale { transform: scale(0.97); }
+.reveal-fade { transform: translateY(0); }
+.reveal.reveal-active { opacity: 1; transform: translate(0) scale(1); filter: blur(0); }
+
+/* MOBILE RESPONSIVE ARSENAL - ANTI TRUNCATION PROTOCOLS */
+@media (max-width: 1100px) {
+  .lifestyle-showcase-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+}
+
+@media (max-width: 900px) {
+  .hero-title { font-size: 42px; }
+  .brand-grid, .future-container-grid { grid-template-columns: 1fr; gap: 32px; text-align: left; }
+  .premium-values-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .container { padding: 0 20px; }
+  
+  .section { 
+    padding: 36px 0; 
+  }
+  .charcoal-section { padding: 48px 0; }
+  
+  .identity-grid, .vision-grid, .premium-values-row {
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+
+  .hero-section { padding: 60px 0 90px; }
+  .hero-title { font-size: 34px; letter-spacing: -1px; }
+  .hero-description { font-size: 15.5px; margin-bottom: 28px; padding: 0 4px; }
+  
+  .section-title h2, .brand-left h2, .interactive-cta-box h2, .future-details h2 { font-size: 26px; }
+  .section-title { margin-bottom: 24px; }
+
+  .hero-buttons { flex-direction: column; width: 100%; max-width: 320px; margin: 0 auto; gap: 12px; }
+  .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 13px 24px; font-size: 15px; box-sizing: border-box; }
+  
+  .identity-card, .vision-card, .value-luxury-card, .interactive-cta-box { 
+    padding: 28px 20px; 
+  }
+  
+  .wave-divider svg { height: 32px; } 
+  .img-frame img { max-height: 280px; }
+}
+
+@media (max-width: 480px) {
+  .container { padding: 0 16px; }
+  .hero-section { padding: 50px 0 76px; }
+  .hero-title { font-size: 28px; }
+  .lifestyle-showcase-grid { grid-template-columns: 1fr; gap: 16px; }
+  .identity-card, .vision-card, .value-luxury-card, .interactive-cta-box { padding: 24px 16px; }
+  .section-title h2, .brand-left h2, .interactive-cta-box h2, .future-details h2 { font-size: 22px; }
+}
+</style>
