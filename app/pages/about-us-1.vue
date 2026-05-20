@@ -9,17 +9,16 @@
 
       <div class="container hero-container">
         <div class="hero-wrapper reveal reveal-fade">
-          <p class="eyebrow gold-text animate-pop">The Spirit of New India</p>
           <h1 class="hero-title">
             One Nation.
             <span class="gold-gradient">One Network.</span>
-            Endless Possibilities.
+            <br> Endless Possibilities.
           </h1>
           <p class="hero-description">
-            IndiKonnect is a modern Indian movement built on the pillars of
-            Connection, Opportunity, Growth, and Trust. Inspired by the vibrant
-            energy and soaring aspirations of 1.4 billion people, we meet the power of
-            entrepreneurship.
+            IndiKonnect is a modern Indian movement built on the pillars of 
+            Connection, Opportunity, Growth, and Trust. Inspired by the vibrant 
+            energy and soaring aspirations of 1.4 billion people, we have created a platform where 
+            the spirit of India meets the power of entrepreneurship.
           </p>
 
           <div class="hero-buttons">
@@ -38,21 +37,20 @@
     <section class="section light-section">
       <div class="container">
         <div class="section-title reveal reveal-up">
-          <p class="section-tag">Our Identity</p>
-          <h2>The Spirit of New India</h2>
+          <h2 class="cobalt-heading">The name IndiKonnect represents <br> our core essence:</h2>
         </div>
 
         <div class="identity-grid">
           <div class="identity-card reveal reveal-left">
             <div class="card-badge primary-bg">IN</div>
             <h3>Indi</h3>
-            <p>Representing the independent spirit of India—its vibrant culture, resilient people, and unstoppable global ambition.</p>
+            <p>Representing the independent spirit of India—its culture, its people, and its ambition.</p>
           </div>
 
           <div class="identity-card reveal reveal-right">
             <div class="card-badge gold-bg">✦</div>
             <h3>Konnect</h3>
-            <p>Our mission to perfectly bridge the gap between world-class premium products and the aspiring modern Indian entrepreneur.</p>
+            <p>Our mission to bridge the gap between world-class lifestyle products and the aspiring Indian entrepreneur.</p>
           </div>
         </div>
       </div>
@@ -62,12 +60,11 @@
       <div class="container brand-wrapper">
         <div class="brand-grid">
           <div class="brand-left reveal reveal-left">
-            <p class="eyebrow gold-text">A Brand That Stands Alone</p>
-            <h2>Built Around <span>Vision, Not Individuals</span></h2>
+            <h2>A Brand That <span>Stands Alone</span></h2>
           </div>
           <div class="brand-right reveal reveal-right">
             <p>At IndiKonnect, we believe that the brand is the identity. We are an institution-driven organization, built not around individuals, but around a collective vision of excellence.</p>
-            <p>Our goal is to be India’s most trusted and respected independent direct selling brand—a household name that stands for absolute transparency, stellar ethics, and long-term stability.</p>
+            <p>Our goal is to be India’s most trusted and respected independent direct selling brand—a household name that stands for transparency, ethics, and long-term stability.</p>
           </div>
         </div>
       </div>
@@ -76,8 +73,7 @@
     <section class="section light-section">
       <div class="container">
         <div class="section-title reveal reveal-up">
-          <p class="section-tag">Vision & Mission</p>
-          <h2>Purpose That Drives Progress</h2>
+          <h2 class="cobalt-heading">Vision & Mission</h2>
         </div>
 
         <div class="vision-grid">
@@ -86,7 +82,7 @@
               <div class="mini-badge primary-bg">V</div>
               <h3>Our Vision</h3>
             </div>
-            <p class="vision-text">To become India’s most trusted, ethical, and empowering direct selling company by connecting people through opportunity and a deep-rooted culture of shared growth.</p>
+            <p class="vision-text">To become India’s most trusted, ethical, and empowering direct selling company by connecting people through opportunity and a culture of shared growth.</p>
           </div>
 
           <div class="vision-card reveal reveal-right">
@@ -95,9 +91,9 @@
               <h3>Our Mission</h3>
             </div>
             <ul class="custom-list">
-              <li>To empower individuals from all walks of life to achieve true financial and professional independence.</li>
-              <li>To offer a highly curated portfolio of premium lifestyle products at an accessible value point.</li>
-              <li>To foster a completely transparent, legal, and ethical business ecosystem that inspires leadership nationwide.</li>
+              <li>To empower individuals from all walks of life to achieve financial and professional independence.</li>
+              <li>To offer a curated portfolio of premium lifestyle products at an accessible value.</li>
+              <li>To foster a transparent, legal, and ethical business ecosystem that inspires leadership nationwide.</li>
             </ul>
           </div>
         </div>
@@ -107,57 +103,56 @@
     <section class="section sophisticated-bg">
       <div class="container">
         <div class="section-title reveal reveal-up">
-          <p class="section-tag">The IndiKonnect Lifestyle</p>
-          <h2>World-Class Excellence</h2>
-          <p class="sub-intro">We don’t just offer products; we craft an elevated living experience. Showcase inspired by iconic worldwide luxury standards.</p>
+          <h2 class="cobalt-heading">The IndiKonnect Lifestyle: World-Class Excellence</h2>
+          <p class="sub-intro">We don’t just offer products; we offer a lifestyle. IndiKonnect is proud to bring a range of premium categories to the Indian market, inspired by the world’s most iconic standards of luxury and quality.</p>
         </div>
 
         <div class="lifestyle-showcase-grid">
           <div class="lifestyle-item reveal reveal-up">
             <div class="image-zoom-box">
-              <img src="/images/watch.png" alt="Luxury Watches" />
+              <img src="/images/watch.png" alt="Timeless Horology" />
               <div class="image-tint"></div>
             </div>
             <div class="lifestyle-card-content">
               <div class="floating-icon">⌚</div>
               <h3>Timeless Horology</h3>
-              <p>Our watch collections are inspired by the sophistication of heritage luxury, designed for precision.</p>
+              <p>Our watch collections are inspired by the sophistication of heritage luxury, designed for those who value precision and style.</p>
             </div>
           </div>
 
           <div class="lifestyle-item reveal reveal-up">
             <div class="image-zoom-box">
-              <img src="/images/jewellery.png" alt="Jewellery" />
+              <img src="/images/jewellery.png" alt="Elegant Jewellery" />
               <div class="image-tint"></div>
             </div>
             <div class="lifestyle-card-content">
               <div class="floating-icon">💎</div>
               <h3>Elegant Jewellery</h3>
-              <p>Modern, elegant collections that reflect individuality and grace, curated for the modern consumer.</p>
+              <p>Modern, elegant collections that reflect individuality and grace, curated for the discerning consumer.</p>
             </div>
           </div>
 
           <div class="lifestyle-item reveal reveal-up">
             <div class="image-zoom-box">
-              <img src="/images/beauty.png" alt="Beauty" />
+              <img src="/images/beauty.png" alt="Beauty & Personal Care" />
               <div class="image-tint"></div>
             </div>
             <div class="lifestyle-card-content">
               <div class="floating-icon">✨</div>
-              <h3>Beauty & Care</h3>
+              <h3>Beauty & Personal Care</h3>
               <p>High-performance skincare and beauty solutions focused on self-care and life enhancement.</p>
             </div>
           </div>
 
           <div class="lifestyle-item reveal reveal-up">
             <div class="image-zoom-box">
-              <img src="/images/dining.png" alt="Dining" />
+              <img src="/images/dining.png" alt="Lifestyle Dining" />
               <div class="image-tint"></div>
             </div>
             <div class="lifestyle-card-content">
               <div class="floating-icon">🍽</div>
               <h3>Lifestyle Dining</h3>
-              <p>Sophisticated crockery and dining collections designed to bring elegance to the modern home.</p>
+              <p>Sophisticated crockery and dining collections designed to bring elegance to the modern Indian home.</p>
             </div>
           </div>
         </div>
@@ -167,24 +162,24 @@
     <section class="section light-section">
       <div class="container">
         <div class="section-title reveal reveal-up">
-          <p class="section-tag">Our Foundations</p>
-          <h2>Values You Can Trust</h2>
+          <h2 class="cobalt-heading">Our Foundations: Values You Can Trust</h2>
+          <p class="sub-intro">The IndiKonnect ecosystem is built on a "People-First" philosophy. Our house colors—Blue, Yellow, and White—reflect our commitment to you:</p>
         </div>
 
         <div class="premium-values-row">
           <div class="value-luxury-card blue-theme reveal reveal-left">
-            <h3>Trust & Stability</h3>
-            <p>We operate with high-level professional vision, clean transparency, and unwavering corporate confidence.</p>
+            <h3>Trust & Stability (Blue)</h3>
+            <p>We operate with professional vision and unwavering confidence.</p>
           </div>
 
           <div class="value-luxury-card gold-theme reveal reveal-up">
-            <h3>Energy & Growth</h3>
-            <p>We systematically foster a strong culture of optimism, shared economic ambition, and warm partnership.</p>
+            <h3>Energy & Growth (Yellow)</h3>
+            <p>We foster a culture of positivity, ambition, and warmth.</p>
           </div>
 
           <div class="value-luxury-card deep-theme reveal reveal-right">
-            <h3>Integrity & Transparency</h3>
-            <p>Our complete foundation is safely built on legal frameworks, moral parameters, and straightforward execution.</p>
+            <h3>Integrity & Transparency (White)</h3>
+            <p>Our foundation is built on ethical values and simple, honest business practices.</p>
           </div>
         </div>
       </div>
@@ -195,14 +190,13 @@
         <div class="future-container-grid">
           <div class="future-media reveal reveal-left">
             <div class="img-frame">
-              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1400&auto=format&fit=crop" alt="Future Ready Ecosystem" />
+              <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?q=80&w=1400&auto=format&fit=crop" alt="Future-Ready & Compliant" />
             </div>
           </div>
           <div class="future-details reveal reveal-right">
-            <p class="eyebrow gold-text">Future-Ready & Compliant</p>
-            <h2>Building the Future of Network Marketing</h2>
-            <p>As a proud advocate of 'Aatmanirbhar Bharat,' IndiKonnect is completely dedicated to setting the benchmark for stellar corporate governance across international standards.</p>
-            <p>We aggressively align our network structure with the latest regulatory frameworks in India to safeguard a completely safe, legitimate, and prosperous ecosystem for our hard-working distribution network.</p>
+            <h2 class="cobalt-heading">Future-Ready & Compliant</h2>
+            <p>As a proud advocate of ‘Aatmanirbhar Bharat,’ IndiKonnect is committed to the highest levels of corporate governance. We are actively aligning our operations with the latest industry frameworks and regulatory bodies in India to ensure a secure, legal, and thriving environment for our distributors and consumers alike.</p>
+            <p>With a robust compensation structure and a focus on leadership development, we are not just building a business; we are building the future of network marketing in India.</p>
           </div>
         </div>
       </div>
@@ -211,10 +205,9 @@
     <section class="section cta-premium-wrap reveal reveal-scale">
       <div class="container">
         <div class="interactive-cta-box">
-          <p class="eyebrow gold-text">Join the Movement</p>
-          <h2>Where People and Possibilities Connect</h2>
-          <p class="cta-desc">Whether you are explicitly looking for elite lifestyle products to scale your quality of living or an enterprise-grade professional model to completely alter your financial path, we welcome you.</p>
-          <button class="primary-btn dynamic-glow-btn">Start Your Personal Journey</button>
+          <h2>Join the Movement</h2>
+          <p class="cta-desc">Whether you are looking for premium products to enhance your lifestyle or a professional opportunity to change your financial future, IndiKonnect is where people and possibilities connect.</p>
+          <button class="primary-btn dynamic-glow-btn">IndiKonnect: Connecting India Through Opportunity.</button>
         </div>
       </div>
     </section>
@@ -275,6 +268,11 @@ onMounted(() => {
   box-sizing: border-box;
 }
 
+/* COMPONENT TITLE UTILITY CLASSES */
+.cobalt-heading {
+  color: var(--cobalt) !important;
+}
+
 /* HERO UPDATES: BRAND COBALT SYSTEM BASELINE */
 .hero-section {
   position: relative;
@@ -327,16 +325,6 @@ onMounted(() => {
   margin: 0 auto;
   width: 100%;
 }
-
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-
-.gold-text { color: var(--gold); }
 
 .hero-title {
   font-size: 52px;
@@ -422,7 +410,7 @@ onMounted(() => {
 
 /* SPACING GRID BASE */
 .section {
-  padding: 56px 0;
+  padding: 40px 0;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -435,15 +423,6 @@ onMounted(() => {
   max-width: 720px;
   margin: 0 auto 36px;
   padding: 0 10px;
-}
-
-.section-tag {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--cobalt);
-  margin-bottom: 8px;
 }
 
 .section-title h2 {
@@ -510,14 +489,14 @@ onMounted(() => {
 /* BRAND INSTANCE BANNER - CLEAN FLUSH LAYOUT */
 .charcoal-section {
   background: linear-gradient(135deg, #232A30 0%, var(--charcoal) 100%);
-  padding: 72px 0;
+  padding: 40px 0;
 }
 
 .brand-wrapper { position: relative; z-index: 5; width: 100%; }
 .brand-grid {
   display: grid;
-  grid-template-columns: 1fr 1.1fr;
-  gap: 48px;
+  grid-template-columns: 0.5fr 1fr;
+  gap: 20px;
   align-items: center;
   width: 100%;
 }
@@ -659,7 +638,6 @@ onMounted(() => {
   box-sizing: border-box;
   overflow-wrap: break-word;
 }
-.v-num { font-size: 42px; font-weight: 800; display: block; opacity: 0.18; line-height: 1; margin-bottom: 12px; }
 .value-luxury-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
 .value-luxury-card p { font-size: 14.5px; line-height: 1.6; opacity: 0.95; }
 
