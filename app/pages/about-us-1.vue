@@ -9,6 +9,7 @@
 
       <div class="container hero-container">
         <div class="hero-wrapper reveal reveal-fade">
+          <p class="hero-subtitle">Our Identity: The Spirit of New India</p>
           <h1 class="hero-title">
             One Nation.
             <span class="gold-gradient">One Network.</span>
@@ -103,7 +104,7 @@
     <section class="section sophisticated-bg">
       <div class="container">
         <div class="section-title reveal reveal-up">
-          <h2 class="cobalt-heading">The IndiKonnect Lifestyle: World-Class Excellence</h2>
+          <h2 class="cobalt-heading">The IndiKonnect Lifestyle:<br> World-Class Excellence</h2>
           <p class="sub-intro">We don’t just offer products; we offer a lifestyle. IndiKonnect is proud to bring a range of premium categories to the Indian market, inspired by the world’s most iconic standards of luxury and quality.</p>
         </div>
 
@@ -163,7 +164,7 @@
       <div class="container">
         <div class="section-title reveal reveal-up">
           <h2 class="cobalt-heading">Our Foundations: Values You Can Trust</h2>
-          <p class="sub-intro">The IndiKonnect ecosystem is built on a "People-First" philosophy. Our house colors—Blue, Yellow, and White—reflect our commitment to you:</p>
+          <p class="sub-intro">The IndiKonnect ecosystem is built on a "People-First" philosophy. <br> Our house colors—Blue, Yellow, and White—reflect our commitment to you:</p>
         </div>
 
         <div class="premium-values-row">
@@ -172,12 +173,12 @@
             <p>We operate with professional vision and unwavering confidence.</p>
           </div>
 
-          <div class="value-luxury-card gold-theme reveal reveal-up">
+          <div class="value-luxury-card yellow-theme reveal reveal-up">
             <h3>Energy & Growth (Yellow)</h3>
             <p>We foster a culture of positivity, ambition, and warmth.</p>
           </div>
 
-          <div class="value-luxury-card deep-theme reveal reveal-right">
+          <div class="value-luxury-card white-theme reveal reveal-right">
             <h3>Integrity & Transparency (White)</h3>
             <p>Our foundation is built on ethical values and simple, honest business practices.</p>
           </div>
@@ -268,18 +269,17 @@ onMounted(() => {
   box-sizing: border-box;
 }
 
-/* COMPONENT TITLE UTILITY CLASSES */
 .cobalt-heading {
   color: var(--cobalt) !important;
 }
 
-/* HERO UPDATES: BRAND COBALT SYSTEM BASELINE */
+/* HERO UPDATE: SYSTEM BASINGS */
 .hero-section {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 80px 0 120px;
+  padding: 90px 0 130px;
   background-color: var(--cobalt);
   overflow: hidden;
   width: 100%;
@@ -324,6 +324,16 @@ onMounted(() => {
   text-align: center;
   margin: 0 auto;
   width: 100%;
+}
+
+/* Restored Subtitle styling */
+.hero-subtitle {
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
 }
 
 .hero-title {
@@ -375,25 +385,6 @@ onMounted(() => {
   box-shadow: 0 12px 25px rgba(255, 199, 44, 0.3);
 }
 
-.secondary-btn {
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--pure-white);
-  font-weight: 600;
-  font-size: 15px;
-  padding: 13px 31px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 50px;
-  cursor: pointer;
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
-}
-
-.secondary-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.4);
-}
-
-/* SCALABLE VECTOR WAVES DIVIDER STYLING */
 .wave-divider {
   position: absolute;
   bottom: -1px;
@@ -408,7 +399,6 @@ onMounted(() => {
   height: 50px;
 }
 
-/* SPACING GRID BASE */
 .section {
   padding: 40px 0;
   position: relative;
@@ -448,8 +438,6 @@ onMounted(() => {
   box-shadow: 0 10px 30px rgba(10, 34, 64, 0.02);
   width: 100%;
   box-sizing: border-box;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
   transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
@@ -486,7 +474,7 @@ onMounted(() => {
   line-height: 1.6;
 }
 
-/* BRAND INSTANCE BANNER - CLEAN FLUSH LAYOUT */
+/* BRAND BANNER */
 .charcoal-section {
   background: linear-gradient(135deg, #232A30 0%, var(--charcoal) 100%);
   padding: 40px 0;
@@ -527,7 +515,6 @@ onMounted(() => {
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  overflow-wrap: break-word;
   transition: all 0.35s ease;
 }
 
@@ -622,7 +609,7 @@ onMounted(() => {
 .lifestyle-item:hover { transform: translateY(-5px); box-shadow: 0 12px 30px rgba(10, 34, 64, 0.06); }
 .lifestyle-item:hover .image-zoom-box img { transform: scale(1.06); }
 
-/* FOUNDATIONS GRID LAYOUT */
+/* FOUNDATIONS ENGINE UPDATES */
 .premium-values-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -633,19 +620,49 @@ onMounted(() => {
 .value-luxury-card { 
   padding: 40px 28px; 
   border-radius: 20px; 
-  color: var(--pure-white); 
   width: 100%;
   box-sizing: border-box;
   overflow-wrap: break-word;
+  position: relative;
+  /* Uniform baseline drop shadow across all card treatments */
+  box-shadow: 0 10px 30px rgba(10, 34, 64, 0.06);
+  transition: transform 0.35s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.35s cubic-bezier(0.25, 1, 0.5, 1);
 }
+
+.value-luxury-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(10, 34, 64, 0.15);
+}
+
 .value-luxury-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 12px; }
-.value-luxury-card p { font-size: 14.5px; line-height: 1.6; opacity: 0.95; }
+.value-luxury-card p { font-size: 14.5px; line-height: 1.6; }
 
-.value-luxury-card.blue-theme { background: linear-gradient(135deg, var(--cobalt) 0%, #002875 100%); }
-.value-luxury-card.gold-theme { background: linear-gradient(135deg, #F5B000 0%, var(--gold) 100%); color: var(--dark-blue); }
-.value-luxury-card.deep-theme { background: linear-gradient(135deg, var(--charcoal) 0%, #1A2126 100%); }
+/* 1. Blue Theme Card Styling */
+.value-luxury-card.blue-theme { 
+  background: linear-gradient(135deg, var(--cobalt) 0%, #002875 100%); 
+  color: var(--pure-white);
+}
 
-/* COMPLIANCE FLEX BLOCK */
+/* 2. Yellow Theme Card (Restored as solid yellow canvas styling) */
+.value-luxury-card.yellow-theme { 
+  background: linear-gradient(135deg, var(--gold) 0%, #F5B000 100%); 
+  color: var(--dark-blue);
+}
+.value-luxury-card.yellow-theme h3 {
+  color: var(--dark-blue);
+}
+
+/* 3. Integrity & Transparency Card (Transformed from Charcoal to Clean Light White Theme) */
+.value-luxury-card.white-theme { 
+  background: var(--pure-white); 
+  color: var(--charcoal);
+  border: 1px solid var(--soft-border);
+}
+.value-luxury-card.white-theme h3 {
+  color: var(--dark-blue);
+}
+
+/* COMPLIANCE BLOCK */
 .future-split-section { background-color: var(--light-gray-bg); }
 .future-container-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 48px; align-items: center; width: 100%; }
 
@@ -656,7 +673,7 @@ onMounted(() => {
 .future-details p { font-size: 15px; margin-bottom: 16px; line-height: 1.65; color: var(--charcoal); }
 .future-details p:last-child { margin-bottom: 0; }
 
-/* BRAND COBALT SYSTEM CALIBRATION */
+/* CALL TO ACTION */
 .cta-premium-wrap { background: var(--pure-white); padding: 40px 0 60px; width: 100%; }
 .interactive-cta-box {
   background: radial-gradient(circle at 90% 10%, rgba(255, 199, 44, 0.12) 0%, transparent 50%), var(--cobalt);
@@ -666,7 +683,6 @@ onMounted(() => {
   box-shadow: 0 15px 40px rgba(0, 61, 165, 0.15);
   width: 100%;
   box-sizing: border-box;
-  overflow-wrap: break-word;
 }
 
 .interactive-cta-box h2 { color: var(--pure-white); font-size: 38px; font-weight: 800; max-width: 840px; margin: 0 auto 18px; line-height: 1.25; }
@@ -680,7 +696,7 @@ onMounted(() => {
 }
 @keyframes shineLoop { 0% { left: -100%; top: -100%; } 25%, 100% { left: 100%; top: 100%; } }
 
-/* ANIMATION CORE ENGINE */
+/* ANIMATION TRACKS */
 .reveal {
   opacity: 0; filter: blur(4px); will-change: transform, opacity;
   transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1), filter 0.8s ease;
@@ -692,7 +708,7 @@ onMounted(() => {
 .reveal-fade { transform: translateY(0); }
 .reveal.reveal-active { opacity: 1; transform: translate(0) scale(1); filter: blur(0); }
 
-/* MOBILE RESPONSIVE ARSENAL - ANTI TRUNCATION PROTOCOLS */
+/* SYSTEM RESPONSIVE COMPASS */
 @media (max-width: 1100px) {
   .lifestyle-showcase-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
 }
@@ -705,10 +721,7 @@ onMounted(() => {
 
 @media (max-width: 768px) {
   .container { padding: 0 20px; }
-  
-  .section { 
-    padding: 36px 0; 
-  }
+  .section { padding: 36px 0; }
   .charcoal-section { padding: 48px 0; }
   
   .identity-grid, .vision-grid, .premium-values-row {
@@ -724,7 +737,7 @@ onMounted(() => {
   .section-title { margin-bottom: 24px; }
 
   .hero-buttons { flex-direction: column; width: 100%; max-width: 320px; margin: 0 auto; gap: 12px; }
-  .primary-btn, .secondary-btn { width: 100%; text-align: center; padding: 13px 24px; font-size: 15px; box-sizing: border-box; }
+  .primary-btn { width: 100%; text-align: center; padding: 13px 24px; font-size: 15px; box-sizing: border-box; }
   
   .identity-card, .vision-card, .value-luxury-card, .interactive-cta-box { 
     padding: 28px 20px; 
